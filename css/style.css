@@ -1,0 +1,12 @@
+.nav-item .text-white:hover {
+    color: #8e8fa0 !important;
+}
+.text-center {
+    background-image: url(../images/background-big.jpg);
+    background-size: cover;
+}
+
+.cover-container {
+    max-width: 1000px;
+    min-height: 80vh;
+}
