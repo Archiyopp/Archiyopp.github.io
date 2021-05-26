@@ -8,5 +8,12 @@
 
 .cover-container {
     max-width: 1000px;
-    min-height: 80vh;
+}
+
+.height {
+    min-height: 100vh;
+}
+
+.height-75 {
+    min-height: 75vh;
 }
