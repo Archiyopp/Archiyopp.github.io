@@ -3,11 +3,12 @@
 }
 .text-center {
     background-image: url(../images/background-big.jpg);
+    background-image: url(../images/background-big.webp);
     background-size: cover;
 }
 
 .cover-container {
-    max-width: 1000px;
+    max-width: 768px;
 }
 
 .height {
