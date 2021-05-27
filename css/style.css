@@ -31,3 +31,6 @@
 h1 {
   font-family: 'komika_axisregular', Arial, sans-serif;
 }
+.d-flex li {
+  list-style-type: none;
+}
