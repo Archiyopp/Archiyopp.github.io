@@ -18,3 +18,16 @@
 .height-75 {
     min-height: 75vh;
 }
+
+@font-face {
+    font-family: 'komika_axisregular';
+    src: url('../font-komika/komikax_-webfont.woff2') format('woff2'),
+         url('../font-komika/komikax_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+  font-family: 'komika_axisregular', Arial, sans-serif;
+}
