@@ -3,11 +3,12 @@
 }
 .text-center {
     background-image: url(../images/background-big.jpg);
+    background-image: url(../images/background-big.webp);
     background-size: cover;
 }
 
 .cover-container {
-    max-width: 1000px;
+    max-width: 768px;
 }
 
 .height {
@@ -16,4 +17,20 @@
 
 .height-75 {
     min-height: 75vh;
+}
+
+@font-face {
+    font-family: 'komika_axisregular';
+    src: url('../font-komika/komikax_-webfont.woff2') format('woff2'),
+         url('../font-komika/komikax_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+  font-family: 'komika_axisregular', Arial, sans-serif;
+}
+.d-flex li {
+  list-style-type: none;
 }
